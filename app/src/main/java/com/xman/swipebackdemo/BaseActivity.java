@@ -38,14 +38,14 @@ public abstract class BaseActivity extends AppCompatActivity {
      *
      * @return
      */
-    public abstract int getContentViewId();
+    protected abstract int getContentViewId();
 
     /**
      * 进行初始化操作 列如 view.findById 是否设置 边缘滑动返回 等
      *
      * @return
      */
-    public abstract void findById();
+    protected abstract void findById();
 
     /**
      * 初始化滑动返回

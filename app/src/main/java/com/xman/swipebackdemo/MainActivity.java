@@ -6,12 +6,12 @@ import android.view.View;
 public class MainActivity extends BaseActivity {
 
     @Override
-    public int getContentViewId() {
+    protected int getContentViewId() {
         return R.layout.activity_main;
     }
 
     @Override
-    public void findById() {
+    protected void findById() {
         setNeedSwipeBack(false);
     }
 
